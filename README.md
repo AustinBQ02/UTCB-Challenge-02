@@ -39,7 +39,12 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 Full Stack Blog - [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
-UT Coding Boot Camp - Module 2 Activity 25
+UT Coding Boot Camp - Module 2 Activity 25 _(class repo is private)_
+- [public profile](https://github.com/the-Coding-Boot-Camp-at-UT) 
+
+Free Web Headers -[terms of use](https://www.freewebheaders.com/terms-of-use/)
+
+[w3schools.com](w3schools.com)
 
 ## License
 
