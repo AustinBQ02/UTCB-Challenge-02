@@ -37,6 +37,8 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 Full Stack Blog - [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
+UT Coding Boot Camp - Module 2 Activity 25
+
 ## License
 
 Please see LICENSE file. 
