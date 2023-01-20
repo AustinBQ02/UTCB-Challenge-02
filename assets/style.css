@@ -14,13 +14,20 @@
   
   header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1%;
+    flex-direction: column;
+    
     background-color: black;
     color: var(--light);
   }
   
+  .header-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+  }
+
   h1 {
     font-size: 200%;
   }
@@ -53,13 +60,6 @@
     color: #4165f3;
   }
 
-
-  
-  main {
-    display: flex;
-    
-  }
-
   .hero-image {
     background-color: black;
     background-image: url("../assets/dark-cubes.jpg");
@@ -79,8 +79,39 @@
     padding-bottom: 50px;
   }
   
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .content-header {
+    padding: 50px
+  }
+
+  .content {
+    justify-content: space-between;
+  }
+  
+.content ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+}
+
+.content a {
+  background-color: unset;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
   footer {
-    position:absolute;
+    
     bottom: 0%;
     display: flex;
     justify-content: center;
