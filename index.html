@@ -14,7 +14,7 @@
 
   <header>
     <!-- Header with name and navbar links to About Me, Work, Contact -->
-
+    <div class="header-bar">
     <!-- Name -->
     <h1>Michael Smith</h1>
 
@@ -26,6 +26,7 @@
         <li><a href="#contact-me">Contact Me</a></li>
       </ul>
     </nav>
+  </div>
      <!-- Hero image / banner that spans entire page -->
      <div class="hero-image">
       <!-- Some sort of caption on the image -->
@@ -37,11 +38,9 @@
 
   <main>
    
-    
-    <!-- Main Content Container -->
-    <!-- <section> -->
-      <!-- About Me -->
-      <div class="container" id="about-me"> 
+    <!-- About Me -->
+    <section id="about-me">
+      
         <!-- needs to display row -->
         <div class="content-header" id="about-me-header">
           <h2>About Me</h2>
@@ -51,22 +50,42 @@
           <p>Ad dolore dignissimos asperiores dicta facere optio quod commodi nam tempore recusandae. Rerum sed nulla eum vero expedita ex delectus voluptates rem at neque quos facere sequi unde optio aliquam!</p><br>
           <p>Tenetur quod quidem in voluptatem corporis dolorum dicta sit pariatur porro quaerat autem ipsam odit quam beatae tempora quibusdam illum! Modi velit odio nam nulla unde amet odit pariatur at!</p>
         </div>
-      </div>
+     
+    </section> 
 
-      <!-- My Work --> 
-      <!-- <div> -->
+<!-- My Work --> 
+    <section id="my-work">
+      <div class="content-header" id="my-work-header">
+        <h2>My Work</h2>
+      </div>
+    
+      <div class="content" id="my-work-content">
       <!-- Tiled images of the developer's applications -->
       <!-- Image tiles are links to deployed applications -->
 
       <!-- First application should be larger in size than the others -->
-      <!-- </div> -->
-
-      <!-- Contact Me -->
-      <!-- <div>
+      <a href=""><img src="/assets/1.jpg"></a>
+      <a href=""><img src="/assets/2.jpg"></a>
+      <a href=""><img src="/assets/3.jpg"></a>
+      <a href=""><img src="/assets/4.jpg"></a>
+      <a href=""><img src="/assets/5.jpg"></a>
 
       </div>
-      
-    </section> -->
+
+    </section>
+    <!-- Contact Me -->
+    <section id="contact-me">
+      <div class="content-header" id="contact-me-header">
+        <h2>Contact Me</h2>
+      </div>
+      <div class="content" id="contact-me-content">
+        <ul>
+          <li><a href="mailto:austinbq02@gmail.com">Email: austinbq02@gmail.com</a></li>
+          <li><a href="https://github.com/AustinBQ02">GitHub: AustinBQ02</a></li>
+          <li><a href="https://www.linkedin.com/in/mdsmith02/">LinkedIn: mdsmith02</a></li>
+        </ul>
+      </div>
+    </section>
 
   </main>
 
@@ -75,7 +94,5 @@
   </footer>
 
 </body>
-
-
 
 </html>
