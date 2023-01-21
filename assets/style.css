@@ -91,8 +91,8 @@ picture {
   main {
       display: grid;
       gap: 1.5rem;
-      grid-template-columns: 12fr;
-      grid-auto-columns: 12fr;
+      grid-template-columns: 1fr;
+      grid-auto-columns: 1fr;
       /* areas for 3 content sections */
       grid-template-areas:
        'about'
@@ -105,15 +105,92 @@ picture {
 /* assign grid areas to sections */
 #about-me {
   grid-area: 1;
+  display:grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+    "heading content";
+}
+#about-me-header {
+  grid-area: heading;
+}
+#about-me-content {
+  grid-area: content;
 }
 
 #my-work {
   grid-area: 2;
+  display:grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+    "heading content";
+}
+#my-work-header {
+  grid-area: heading;
+}
+#my-work-content {
+  grid-area: content;
+  display:grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr 1fr;
+  /* First application should be larger in size */
+  /* grid-template-areas: 
+    "1 1"
+    "1 1"
+    "2 3"
+    "4 5"; */
+}
+#proj1 {
+  /* grid-area:1; */
+  grid-column-start: span 2;
+  grid-row-start: 1;
+  /* height: 300px;
+  width: 600px; */
+}
+
+#proj2 {
+  /* grid-area:2; */
+  grid-row-start: 2;
+  grid-column-start: 1;
+}
+
+#proj3 {
+  /* grid-area:3; */
+  grid-row-start: 2;
+  grid-column-start: 2;
+}
+
+#proj4 {
+  /* grid-area:4; */
+  grid-row-start: 3;
+  grid-column-start: 1;
+}
+
+#proj5 {
+  /* grid-area:5; */
+  grid-row-start: 3;
+  grid-column-start: 2;
 }
 
 #contact-me {
   grid-area: 3;
+  display:grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+    "heading content";
 }
+#contact-me-header {
+  grid-area: heading;
+}
+#contact-me-content {
+  grid-area: content;
+}
+
+
+
+
 
   footer {
     
