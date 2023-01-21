@@ -11,12 +11,14 @@
     flex-direction: column;
     line-height: 1.3;
     background-color: lightgray;
+    align-items: center;
   }
   
   header {
     display: flex;
     flex-direction: column;
-    
+    /* padding-block: 2rem; */
+    width: min(95%, 70rem);
     background-color: black;
     color: var(--light);
   }
@@ -64,8 +66,6 @@
   .hero-image {
     background-color: black;
     background-image: url("../assets/dark-cubes.jpg");
-    height: 100%;
-    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,47 +78,41 @@
     color: white;
     padding-top: 150px;
     padding-bottom: 50px;
+    padding-right:50px;
   }
   
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+  /* giving grid a shot */
   main {
-    display: flex;
-    flex-direction: column;
+      display: grid;
+      gap: 1.5rem;
+      grid-template-columns: 12fr;
+      grid-auto-columns: 12fr;
+      /* areas for 3 content sections */
+      grid-template-areas:
+       'about'
+       'work'
+       'contact';
+      padding-block: 2rem;
+      width: min(95%, 70rem);
   }
 
-  section {
-    display: flex;
-    flex-direction: row;
-  }
-#proj1 {
-  width: 600px;
-  height: 300px;
+/* assign grid areas to sections */
+#about-me {
+  grid-area: 1;
 }
 
-#proj2 {
-  width: 300px;
-  height: 300px;
+#my-work {
+  grid-area: 2;
 }
 
-#proj3 {
-  width: 300px;
-  height: 300px;
-}
-#proj4 {
-  width: 300px;
-  height: 300px;
-}
-#proj5 {
-  width: 300px;
-  height: 300px;
-}
-#contact-me-content {
-  display: inline-flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1%;
-    min-width: 300px;
-    margin-left: 3px;
+#contact-me {
+  grid-area: 3;
 }
 
   footer {

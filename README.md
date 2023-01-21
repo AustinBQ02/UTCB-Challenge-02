@@ -46,6 +46,10 @@ Free Web Headers -[terms of use](https://www.freewebheaders.com/terms-of-use/)
 
 [w3schools.com](w3schools.com)
 
+Kevin Powell - _making me hate CSS a little less_
+- [YouTube](https://www.youtube.com/@KevinPowell)
+- [GitHub](https://github.com/kevin-powell/learn-grid-the-easy-way)
+
 ## License
 
 Please see LICENSE file. 
